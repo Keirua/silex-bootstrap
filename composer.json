@@ -8,7 +8,9 @@
     "authors"     : [
         {
             "name"  : "Clement Camin",
-            "email" : "keirua@gmail.com"
+            "email" : "keirua@gmail.com",
+            "homepage": "www.keiruaprod.fr",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
