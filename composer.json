@@ -1,4 +1,16 @@
 {
+	"name"        : "Keirua/silex-boilerplate",
+    "type"        : "library",
+    "description" : "A ready to get started Silex project. It provides you with a fresh start for your silex applications.",
+    "keywords"    : ["framework"],
+    "homepage"    : "https://github.com/Keirua/silex-boilerplate",
+    "license"     : "MIT",
+    "authors"     : [
+        {
+            "name"  : "Grégoire Pineau",
+            "email" : "lyrixx@lyrixx.info"
+        }
+    ],
     "minimum-stability": "dev",
     "require": {
         "silex/silex": "1.0.*",
