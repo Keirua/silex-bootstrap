@@ -16,6 +16,9 @@ Installation
 
 2) Download the latest version of the source code and of its dependencies :
 
+	php composer.phar create-project keirua/silex-bootstrap YourProject/
+where YourProject/ is the directory of your future project.
+
 
 Done ! You can now start hacking into src/app.php. 
 
