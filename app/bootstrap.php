@@ -1,7 +1,9 @@
 <?php
 use Silex\Provider\MonologServiceProvider, 
     Silex\Provider\TwigServiceProvider,
-    Silex\Provider\UrlGeneratorServiceProvider;
+    Silex\Provider\UrlGeneratorServiceProvider,
+    Silex\Provider\HttpCacheServiceProvider,
+    Silex\Provider\SessionServiceProvider;
 
 $app = new Silex\Application();
 
@@ -12,9 +14,12 @@ $app->register(new MonologServiceProvider(), array(
 ));
 
 $app->register(new TwigServiceProvider(), array(
-    'twig.path'             => array(__DIR__ . '/../src/views')
+    'twig.path'             => array(__DIR__ . '/../src/views'),
+    'twig.options'          => array('cache' => false, 'strict_variables' => true),
 ));
 
- $app->register(new UrlGeneratorServiceProvider());
+$app->register(new HttpCacheServiceProvider());
+$app->register(new SessionServiceProvider());
+$app->register(new UrlGeneratorServiceProvider());
 
 return $app;
