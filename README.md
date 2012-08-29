@@ -11,7 +11,8 @@ Installation
 ------------
 
 1) Download composer : 
-curl -s http://getcomposer.org/installer | php
+
+	curl -s http://getcomposer.org/installer | php
 
 2) Download the latest version of the source code and of its dependencies :
 
@@ -25,13 +26,13 @@ Directory structure
 
 The directory structure is the following
 
-		src/
-		  views/
-		app/
-		  cache/
-		  logs/
-		web/
-		vendor/
+	src/
+	  views/
+	app/
+	  cache/
+	  logs/
+	web/
+	vendor/
 
 src/ is the root of your code. Create some routes in app.php, and put the templates in the views directory. A layout file based on HTML5Boilerplate is already there, it can be of use.
 
@@ -39,7 +40,7 @@ app/ contains all the settings of the application. Everything is in a file named
 
 web/ contains everything which is exposed. Make sure your web server only serves this directory to people. It also contains all the public assets : css, js and images.
 
-vendor/ contains all the public 
+vendor/ contains all the dependencies of the project. The dependencies are listed in composer.json.
 
 
 [silex]: http://silex.sensiolabs.org/
