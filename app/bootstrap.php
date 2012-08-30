@@ -24,7 +24,7 @@ $app->register(new MonologServiceProvider(), array(
 $app->register(new TwigServiceProvider(), array(
     'twig.path'             => array(__DIR__ . '/../src/views'),
     'twig.options'          => array(
-    	'cache' => __DIR__ . '/cache', 
+    	'cache' => false, // __DIR__ . '/cache', 
     	'strict_variables' => true
     ),
 ));

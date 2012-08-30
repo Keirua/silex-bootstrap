@@ -1,0 +1,308 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bes",
+				"best_score"
+			],
+			[
+				"articl",
+				"article"
+			],
+			[
+				"arti",
+				"article_dir"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"date_p",
+				"date_pub"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"comp",
+				"compute_time_ms"
+			],
+			[
+				"def",
+				"default_bg_color"
+			],
+			[
+				"tim",
+				"time_t"
+			],
+			[
+				"MODE",
+				"MODE_CUBE"
+			],
+			[
+				"MOD",
+				"MODE_SQUARE"
+			],
+			[
+				"nb",
+				"nb_b"
+			],
+			[
+				"game",
+				"game"
+			],
+			[
+				"rand",
+				"random_range"
+			],
+			[
+				"game_",
+				"game_step_t"
+			],
+			[
+				"gam",
+				"game_step_t"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"mOD",
+				"MODE_SQUARE"
+			],
+			[
+				"expl",
+				"expl_size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/silex-bootstrap/web/index.php",
+		"/var/www/silex-bootstrap/web/index_dev.php",
+		"/var/www/silex-bootstrap/src/app.php",
+		"/var/www/silex-bootstrap/app/bootstrap.php",
+		"/var/www/silex-bootstrap/.gitignore",
+		"/var/www/design/assets/css/artidirection.css",
+		"/var/www/design/assets/css/global.css",
+		"/var/www/nanoPress/composer.json",
+		"/var/www/nanoPress/src/views/layout.html.twig",
+		"/var/www/design/index.htm",
+		"/var/www/design/css.css",
+		"/var/www/nanoPress/src/views/archives.html.twig",
+		"/var/www/nanoPress/src/views/show.html.twig",
+		"/var/www/design/test.htm",
+		"/var/www/nanoPress/src/views/index.html.twig",
+		"/var/www/nanoPress/src/app.php",
+		"/var/www/nanoPress/app/bootstrap.php",
+		"/var/www/nanoPress/web/index.php",
+		"/var/www/kiwi/index.php",
+		"/var/www/femtopress/index.php",
+		"/var/www/blogengine/posts/2012-09-21.Second article.md",
+		"/var/www/blogengine/posts/2012-08-27.Intro article.md",
+		"/var/www/blogengine/*.md",
+		"/var/www/silex-bootstrap/src/views/error_default.twig",
+		"/var/www/silex-bootstrap/src/views/error404.html.twig",
+		"/var/www/silex-bootstrap/src/views/error_layout.html",
+		"/var/www/silex-bootstrap/README.md",
+		"/var/www/silex-bootstrap/composer.json",
+		"/var/www/silex-bootstrap/src/views/hello.html.twig",
+		"/var/www/silex-bootstrap/src/views/layout.html.twig",
+		"/var/www/silex-bootstrap/src/views/index.html.twig",
+		"/var/www/silex-bootstrap/src/views/generate.html.twig",
+		"/var/www/silex-bootstrap/.gitignore~",
+		"/var/www/silex-bootstrap/web/.htaccess",
+		"/var/www/silex-bootstrap/src/image.svg.twig",
+		"/var/www/silex-bootstrap/web/index.html",
+		"/home/clem/.config/sublime-text-2/Packages/User/Plain text.sublime-settings",
+		"/home/clem/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/clem/dev/mental/main.c",
+		"/var/www/fakeimg/web/css/style.css",
+		"/var/log/apache2/error.log",
+		"/var/www/fakeimg/web/.htaccess",
+		"/etc/apache2/httpd.conf",
+		"/home/clem/dev/lvl5/google.php",
+		"/home/clem/dev/lvl5/form.htm",
+		"/home/clem/dev/lvl5/lv5.php",
+		"/home/clem/dev/lvl5/test2.php",
+		"/home/clem/dev/lvl6/url",
+		"/home/clem/dev/lvl5/sv2.php",
+		"/home/clem/dev/mental/main2.c",
+		"/usr/include/time.h",
+		"/home/clem/dev/mental/main.cpp",
+		"/var/www/fakeimg/web/image2.svg",
+		"/var/www/fakeimg/web/image.svg~",
+		"/var/www/fakeimg/web/image.svg",
+		"/var/www/fakeimg/src/image.svg.twig",
+		"/var/www/fakeimg/web/phpsvg.php",
+		"/var/www/fakeimg/vendor/silex/silex/doc/cookbook/json_request_body.rst",
+		"/var/www/fakeimg/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php",
+		"/var/www/fakeimg/src/views/image.svg.twig",
+		"/var/www/fakeimg/src/app.php",
+		"/var/www/fakeimg/src/views/index.html.twig",
+		"/var/www/fakeimg/web/specialfont.php",
+		"/var/www/fakeimg/vendor/silex/silex/src/Silex/Application.php",
+		"/var/www/fakeimg/vendor/silex/silex/doc/index.rst",
+		"/var/www/fakeimg/web/index.php",
+		"/var/www/fakeimg/app/bootstrap.php",
+		"/var/www/fakeimg/src/views/hello.html.twig",
+		"/var/www/fakeimg/vendor/silex/silex/src/Silex/ControllerCollection.php",
+		"/var/www/fakeimg/vendor/silex/silex/doc/providers/form.rst",
+		"/var/www/fakeimg/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Request.php",
+		"/var/www/fakeimg/vendor/silex/silex/doc/intro.rst",
+		"/var/www/fakeimg/image.svg"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"line-height",
+			"liste_articles",
+			"max",
+			"entry-head",
+			"entry-hea",
+			"css",
+			"go_message",
+			"conte",
+			";\n",
+			"match",
+			"default",
+			"GETreq",
+			"GET",
+			"/>\n",
+			"');\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/kiwi/silex-bootstrap.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true
+}
