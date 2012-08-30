@@ -9,7 +9,6 @@ $app = new Silex\Application();
 
 $app['cache.path'] = __DIR__ . '/cache';
 
-
 $app->register(new SessionServiceProvider());
 $app->register(new UrlGeneratorServiceProvider());
 
@@ -24,13 +23,10 @@ $app->register(new MonologServiceProvider(), array(
 
 $app->register(new TwigServiceProvider(), array(
     'twig.path'             => array(__DIR__ . '/../src/views'),
-    'twig.cache'             => array(__DIR__ . '/cache'),
-    'twig.options'          => array('cache' => false, 'strict_variables' => true),
+    'twig.options'          => array(
+    	'cache' => __DIR__ . '/cache', 
+    	'strict_variables' => true
+    ),
 ));
-
-
-
-
-
 
 return $app;
