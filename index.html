@@ -1,0 +1,109 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Silex-bootstrap</title>
+  <meta name="description" content="A ready to get started Silex project. It provides you with a fresh start for your silex applications.">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Silex-bootstrap</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">A ready to get started Silex project. It provides you with a fresh start for your silex applications.</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/Keirua/silex-bootstrap/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/Keirua/silex-bootstrap/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/Keirua/silex-bootstrap" class="code">View Silex-bootstrap on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>Silex-bootstrap</h1>
+
+<p>Silex-bootstrap is an already setup <a href="http://silex.sensiolabs.org/">Silex</a> project. It helps you get started by providing you with everything you need for a lightweight Silex application. By the way, <a href="http://silex.sensiolabs.org/">Silex</a> is a PHP micro-framework.</p>
+
+<p>This project embeds an HTML5Boilerplate structure with Twitterboostrap 2 for the frontend. Regarding the backend, the basics is already setup for you. There is some templating, routing, cache, controllers, basic settings and a solid directory structure.</p>
+
+<p>It's very similar to <a href="https://github.com/lyrixx/Silex-Kitchen-Edition">Silex Kitchen Edition</a>, but with less stuff. Oh, it's open source, and it's <a href="https://github.com/Keirua/silex-bootstrap">on Github</a>.</p>
+
+<h2>Installation</h2>
+
+<p>1) Download composer : </p>
+
+<pre><code>curl -s http://getcomposer.org/installer | php
+</code></pre>
+
+<p>2) Download the latest version of the source code and of its dependencies :</p>
+
+<pre><code>php composer.phar create-project keirua/silex-bootstrap YourProject/
+</code></pre>
+
+<p>where YourProject/ is the directory of your future project.</p>
+
+<p>Done ! You can now start hacking into YourProject/src/app.php. There already are 2 routes, / and /hello/plop</p>
+
+<p>If you don't know Silex, I'm pretty sure the <a href="http://silex.sensiolabs.org/documentation">documentation</a> can be useful.</p>
+
+<h2>Directory structure</h2>
+
+<p>The directory structure is the following</p>
+
+<pre><code>src/
+  views/
+app/
+  cache/
+  logs/
+web/
+vendor/
+</code></pre>
+
+<p><strong>src/</strong> is the root of your code. Create some routes in app.php, and put the templates in the views directory. A layout file based on HTML5Boilerplate is already there, it can be of use.</p>
+
+<p><strong>app/</strong> contains all the settings of the application. Everything is in a file named bootstrap.php. If you want to add more service providers from Silex, do it there.</p>
+
+<p><strong>web/</strong> contains everything which is exposed. Make sure your web server only serves this directory to people. It also contains all the public assets : css, js and images.</p>
+
+<p><strong>vendor/</strong> contains all the dependencies of the project. The dependencies are listed in composer.json.</p>
+
+<p>This tool was made with love by <a href="http://www.keiruaprod.fr">KeiruaProd</a>.</p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/Keirua" class="avatar"><img src="https://secure.gravatar.com/avatar/d069cb501f38b4199443e20f47ecad35?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> <a href="https://github.com/Keirua">Keirua</a> maintains <a href="https://github.com/Keirua/silex-bootstrap">Silex-bootstrap</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/Keirua/silex-bootstrap/tarball/master" class="tar">tar</a><a href="https://github.com/Keirua/silex-bootstrap/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
