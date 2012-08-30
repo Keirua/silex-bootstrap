@@ -5,7 +5,7 @@ Silex-bootstrap is an already setup [Silex][silex] project. It helps you get sta
 
 This project embeds an HTML5Boilerplate structure with Twitterboostrap 2 for the frontend. Regarding the backend, the basics is already setup for you. There is some templating, routing, cache, controllers, basic settings and a solid directory structure.
 
-It's very similar to [Silex Kitchen Edition][silexkitchen], but with less stuff.
+It's very similar to [Silex Kitchen Edition][silexkitchen], but with less stuff. Oh, it's open source, and it's [on Github][githubproject].
 
 Installation
 ------------
@@ -49,3 +49,4 @@ The directory structure is the following
 [silex]: http://silex.sensiolabs.org/
 [silexdoc]: http://silex.sensiolabs.org/documentation
 [silexkitchen]: https://github.com/lyrixx/Silex-Kitchen-Edition
+[githubproject]: https://github.com/Keirua/silex-bootstrap
