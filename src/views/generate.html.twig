@@ -1,0 +1,22 @@
+{% extends ('layout.html.twig') %}
+
+
+{% block content %}
+<h1>Generate placeholder</h1>
+
+<div class="generated_placeholder">
+<a href="{{ url ('kp_img', {'size' : size, 'bg_color': '000', 'text_color' : 'FF0000'})  }} ">
+
+<object data="{{ url ('kp_img', {'size' : size, 'bg_color': '000', 'text_color' : 'FF0000'})  }}" type="image/svg+xml" width="{{ width }}" height="{{ height }}" id="svg2"></object>
+
+</a>
+
+<h2>Code : </h2>
+
+<p>
+<span>
+&lt;object data="{{ url ('kp_img', {'size' : size, 'bg_color': '000', 'text_color' : 'FF0000'})  }}" type="image/svg+xml" width="{{ width }}" height="{{ height }}" id="svg2"&gt;&lt;/object&gt; 
+</span> 
+</p>
+
+{% endblock content %}
