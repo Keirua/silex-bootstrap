@@ -46,7 +46,10 @@ The directory structure is the following
 **vendor/** contains all the dependencies of the project. The dependencies are listed in composer.json.
 
 
+This tool was made with love by [KeiruaProd][keiruaprod].
+
 [silex]: http://silex.sensiolabs.org/
 [silexdoc]: http://silex.sensiolabs.org/documentation
 [silexkitchen]: https://github.com/lyrixx/Silex-Kitchen-Edition
 [githubproject]: https://github.com/Keirua/silex-bootstrap
+[keiruaprod]: http://www.keiruaprod.fr
