@@ -2,4 +2,4 @@
 /cache/*
 /composer.phar
 /log/*
-*~
+composer.phar
