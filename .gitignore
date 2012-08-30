@@ -1,6 +1,5 @@
 /vendor/
-/app/cache/*
-app/cache/*
+/app/cache/
 /composer.phar
 /log/*
 composer.phar
